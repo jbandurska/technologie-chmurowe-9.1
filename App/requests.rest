@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Janek",
+    "username": "Jachu z Klamer",
+    "email": "slynny_janek@klamry.pl"
+}
+
+###
+
+PUT http://localhost:3000/users/2875fab6-745a-4483-a194-7dad90546c32
+Content-Type: application/json
+
+{
+    "name": "Janek",
+    "username": "Jachu z Klamer",
+    "email": "bardzo_slynny_janek@klamry.pl"
+}
+
+###
+
+DELETE http://localhost:3000/users/2875fab6-745a-4483-a194-7dad90546c32
